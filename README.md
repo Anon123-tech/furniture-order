@@ -1,12 +1,28 @@
+The app for creating a client order and generating the `.docx` file on client side via React.
+
+## Example
+
+1. Filling the form with client's information
+  (see [Order form (1)](examples/1.jpg),
+  [Order form (2)](examples/2.jpg)).
+2. Filling the product table
+  (see [Product table](examples/3.jpg)).
+3. Downloading the generated document
+  (see [Downloading the generated document](examples/4.jpg)).
+4. The client's order is done and can be printed, signed, mailed, etc
+(see [Generated document](examples/5.jpg)).
+  
+  
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm api-server`, then `npm start`
 
-Runs the app in the development mode.<br>
+Run the api-server and app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
