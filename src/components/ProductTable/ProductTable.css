@@ -1,0 +1,26 @@
+.ProductTable {
+    border-collapse: collapse;
+    border: 1px solid black;
+
+
+}
+
+.ProductTable th,
+.ProductTable td {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid black;
+}
+
+.ProductTable td[colspan="2"] {
+    text-align: center;
+}
+
+.ProductTable-add-product {
+    color: #070;
+    cursor: pointer;
+}
+
+.ProductTable-add-product:hover {
+    font-size: 1.1em;
+}

@@ -1,0 +1,62 @@
+{
+  "ordering": {
+    "shop": {
+      "name": "0",
+      "phone": "8 (000) 000-00-00",
+      "address": "ул. Лесотехникума, 1"
+    },
+    "productTable": {
+      "shopList": [
+        1,
+        12,
+        14,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22
+      ],
+      "defaultProductLocations": [
+        {
+          "title": "Услуга"
+        },
+        {
+          "title": "Склад"
+        },
+        {
+          "title": "Заказ"
+        }
+      ],
+      "campaigns": [
+        {
+
+          "title": "Без категории",
+          "values": [
+            {
+              "title": "Нет",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "title": "Новоселы",
+          "values": [
+            {
+              "title": "Новоселы -5%",
+              "value": 5
+            },
+            {
+              "title": "Новоселы -10%",
+              "value": 10
+            },
+            {
+              "title": "Новоселы -15%",
+              "value": 15
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

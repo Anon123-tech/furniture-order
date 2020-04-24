@@ -1,0 +1,59 @@
+.FormField {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.FormField-label {
+    margin-bottom: 15px;
+}
+
+.FormField-checkbox-label {
+    margin-bottom: 0;
+}
+
+.FormField input {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+    box-shadow: none; /* Remove default red glow in Firefox */
+}
+
+.FormField input:required {
+    content: "*";
+    border: 1px solid #118bc1;
+}
+
+.FormField input:invalid {
+    border: 1px solid #D55C5F;
+    color: #D55C5F;
+}
+
+
+@media only screen and (min-width: 700px) {
+    .FormField {
+        flex-direction: row;
+        align-items: flex-start; /* To avoid stretching */
+        margin-bottom: 20px;
+    }
+
+    .FormField-label {
+        margin-top: 7px;
+        padding-right: 20px;
+    }
+
+    .FormField input [type='text'],
+    .FormField input [type='email'] {
+        width: 250px;
+        height: initial;
+    }
+
+    .FormField-checkbox-label {
+        width: auto;
+    }
+}

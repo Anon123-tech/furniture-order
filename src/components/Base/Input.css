@@ -1,0 +1,27 @@
+.Input {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.Input:required::after {
+    content: "*";
+}
+
+.Input:invalid {
+    border: 1px solid #D55C5F;
+    color: #D55C5F;
+    box-shadow: none; /* Remove default red glow in Firefox */
+}
+
+@media only screen and (min-width: 700px) {
+    .Input[type='text'],
+    .Input[type='email'] {
+        width: 250px;
+        height: initial;
+    }
+}
+
